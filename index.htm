@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/mian.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-container">
+      <h1 class="header-logo">
+        Ranglar Generatori
+      </h1>
+      <ul class="header-list">
+        <li class="header-list-item">
+          <a href="https://t.me/itsbek_01" target="_blank">
+            Telegram
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <br>
+  <div class="generator">
+    <ul class="list">
+      <li class="item"><span class="item-title">R</span> <input data-color="red" min="0" max="255" class="item-range" type="range" id="input-1"></li>
+      <li class="item"><span class="item-title">G</span> <input data-color="green" min="0" max="255" class="item-range" type="range" id="input-2"></li>
+      <li class="item"><span class="item-title">B</span> <input data-color="blue" min="0" max="255" class="item-range" type="range" id="input-3"></li>
+    </ul>
+    <div class="button-box">
+      <button class="color-rgb">rgb( <span class="span-1">255</span >,<span class="span-2">255</span>,<span class="span-3">255</span> )</button>
+      <button class="copy">copy</button>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <p class="footer-text">
+        Muallif: <b>Sobirjonov Muhammadayub</b> 1 version
+      </p>
+    </div>
+  </footer>
+  
+  <script src="js/app.js"></script>
+</body>
+</html>
